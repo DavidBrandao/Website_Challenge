@@ -1,0 +1,4 @@
+# Caso ambiente de homologação tenha url diferente, podemos mudar o seu valor de url
+# Para os testes serem executados nessa configuração de homologação basta mudar a o valor default no cucumber.yml
+
+url: "https://inm-test-app.herokuapp.com"

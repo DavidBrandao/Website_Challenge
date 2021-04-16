@@ -1,0 +1,20 @@
+# Templates de Execução
+default: -p dev -p chrome -p html -p pretty
+#ci: -p hmg -p chrome -p json -p progress
+
+# Tipos de Ambiente
+dev: ENV_TYPE=dev
+hmg: ENV_TYPE=hmg
+
+# Tipos de navegadores
+firefox: BROWSER=firefox
+chrome: BROWSER=chrome
+headless: BROWSER=headless 
+
+# tipos de report
+html: --format html --out=log/report.html
+json: --format json --out=log/report.json
+
+# Formatos do log no terminal
+pretty: --format pretty
+progress: --format progress
