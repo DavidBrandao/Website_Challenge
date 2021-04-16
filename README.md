@@ -22,7 +22,7 @@ O código pode ser rodado de algumas maneiras
   - Rodar apenas cenário específico
     - Executar no terminal o comando: "cucumber -t @nome_da_tag"
   - Caso possua mais de um ambiente (desenvolvimento, release, homologação), pode-se alterar as configurações nos arquivos cucumber.yaml, dev.yaml e hmg.yaml
-  4. No cucumber.yaml é possível escolher/montar templates de geração conforme comentado no proprio arquivo
+  - No cucumber.yaml é possível escolher/montar templates de geração conforme comentado no proprio arquivo
 
 4. Relatórios
   - No cucumber.yaml é possivel definir o tipo de relatorio (html ou json) bem como o seu nome e local de destino 
