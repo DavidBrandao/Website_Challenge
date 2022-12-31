@@ -1,6 +1,4 @@
-# **Website_Challenge**
-
-## Este é um simples projeto de automação web utilizando a linguagem ruby como base, os topicos abaixo irão descrever um passo a passo de pre requisitos, como preparar o setup, como rodar o código e por fim onde visualizar o relatorio
+# **Bee Farm**
 
 1. Pré-requisitos
 - Ao baixar este projeto, se faz necessário a instalação da linguagem ruby [Link para download!](https://rubyinstaller.org/downloads/)
